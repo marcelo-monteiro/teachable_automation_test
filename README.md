@@ -37,6 +37,6 @@ http://ruby-doc.org/stdlib-2.4.0/libdoc/yaml/rdoc/YAML.html
 **Obs: Due to macOS restrictions this test was using custom driverpath, please check env.rb to disable it.** 
 
 * All scenarios opening window navigator with report: 
-    * ``cucumber -report``
+    * ``cucumber -p -report``
 * All scenarios headless with report: 
     * ``cucumber -p headless_report``
