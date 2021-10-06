@@ -3,7 +3,7 @@
 source 'http://rubygems.org'
 
 gem 'capybara'
-gem 'cucumber'
+gem 'cucumber', '5.3.0'
 gem 'faker'
 gem 'ffaker'
 gem 'png_quantizator'

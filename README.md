@@ -30,7 +30,7 @@ http://ruby-doc.org/stdlib-2.4.0/libdoc/yaml/rdoc/YAML.html
 *  After configuring the local environment with Ruby Language, install the project's dependencies (Gems), which are in the Gemfile file (preferably it should be with the library versions, once they have been tested, to ensure that in an environment with the same conditions, the automation runs without errors )
 * Download and configure the desired webdriver
 * Execute the following command inside the root directory of automation:
-    * ``bundle install'``
+    * ``bundle install``
 
 ## Executing tests
 

@@ -20,10 +20,10 @@ After do |scn|
   binding.pry if scn.failed? && ENV['debug']
   
   # Set screenshot configuration
-  # if ENV['screenshot']
-  #   screenshot = HooksConfig.take_screenshot(scn)
-  #   attach(screenshot, 'image/png')
-  # end
+  if ENV['screenshot']
+    screenshot = HooksConfig.take_screenshot(scn)
+    attach(screenshot, 'image/png')
+  end
       
   # Set reset session hook
   page.execute_script('sessionStorage.clear()') 
