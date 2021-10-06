@@ -1,0 +1,6 @@
+<%ENV['CUCUMBER_PUBLISH_TOKEN']='eda9a810-e023-43df-b5ae-cc9ad43b1b4f'%>
+
+default: --no-source --color --format pretty --publish-quiet
+
+report: -p default chrome=true screenshot=true
+headless_report: -p default chrome_headless=true screenshot=true

@@ -1,0 +1,13 @@
+*.html
+*.ndjson
+data/videos/*.mp4
+data/videos/*.webm
+data/report/*.html
+data/report/*.json
+data/report/*.retry
+data/allure-results/*.json
+.vscode/launch.json
+.vscode/settings.json
+.env
+data/screenshots/*
+data/orders/*

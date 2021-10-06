@@ -1,0 +1,20 @@
+#Page Selectors
+
+homepage:
+  login_link:   "//a[@class='navbar-link fedora-navbar-link']"
+  sign_up_link: "//a[@id='header-sign-up-btn']"
+
+login_page:
+  login_email_input:    "//input[@id='email']"
+  login_password_input: "//input[@id='password']"
+  login_button:         "//input[@value='Login']"
+
+register_page:
+  full_name_input:  "//input[@id='user_name']"
+  email_input:      "//input[@id='user_email']"
+  password_input:   "//input[@id='password']"
+  consent_checkbox: "//input[@id='allow_marketing_emails']"
+  sign_up_button:   "//input[@value='Sign up']"
+
+dashboard_page:
+  my_courses_list: "//a[@class='fedora-navbar-link navbar-link']"
